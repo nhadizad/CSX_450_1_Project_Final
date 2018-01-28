@@ -30,6 +30,7 @@ Number of Attributes: 8 numeric, predictive attributes and the number of rings (
 Missing Attribute Values: None
 
 Class Distribution:
+
 |Class  |Examples|
 |-------|--------|
 |1|1|
