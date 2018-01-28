@@ -12,7 +12,7 @@ The abalone dataset contains measurements for 4177 with 8 features, and the numb
 
 As each element will be stored in an R, the size of the dataframe will be approximately 284036 bytes (4177 rows * 4 columns * 8 bytes + 4177 rows * 1 column * 4 bytes) plus any overhead associated with the dataframe. With an overhead of 5% for this relatively large dataset, the total in-memory size of this dataframe is approximately 290000 bytes.
 
-Number of Attributes: 8 numeric, predictive attributes and the number of rings (directly related to age).
+Number of Attributes: 8 predictive attributes and the number of rings (directly related to age).
 
 
 |Name           |Data Type     |Meas.  |Description|
@@ -61,3 +61,12 @@ Class Distribution:
 |26|1|
 |27|2|
 |29|1|
+
+## Solution Statement ##
+
+We will create three classification models, that would predict the age of abalones based on their physical characteristics. We will use the most appropriate models for this analysis, as we learn more about the dataset and the techniques that are available for classification problems. As an example we can use, Linear Discriminant Analysis (LDA), K Nearest Neighbor (KNN), and Classification and Regression Trees (CART). Additionally, since this is a supervised model, we can break up our measurements into two sets. We use the first portion of the dataset for trainig and developing the models, and use the second portion to validate our models. Although we have to be careful on how we can break up the data so that the distribution of the classes are proportional. Ultimately we can see which model produces the most accurate results.
+
+## Benchmark Model ##
+
+A good benchmark would be to predict the class (i.e. the number of rings and ultimately the age) of an abalone, given its physical characteristic features. With further analysis, we may realize that some of these features are very closely correlated, such as all the weight measurements, and we may not use all of the features in our model.
+
