@@ -4,7 +4,7 @@
 The problem is drawn from the analysis of data when studying the physical characteristic of abalones as it relates to their age.
 
 ## Problem Statement ##
-The age of abalone is determined by cutting the shell through the cone, staining it, and counting the number of rings through a microscope, a time consuming process. In order to simplify the proces, we will create a supervised classification model to predict the age range of abalones, using their physical characteristics.
+The age of abalone is determined by cutting the shell through the cone, staining it, and counting the number of rings through a microscope, a time consuming process. In order to simplify the process, we will create a supervised classification model to predict the age range of abalones, using their physical characteristics.
 
 ## Dataset ##
 The abalone dataset contains measurements for 4177 with 8 features, and the number of rings.
@@ -65,11 +65,14 @@ Class Distribution:
 
 
 
-## Solution Statement ##
+## Solution ##
 
-We will create three classification models, that would predict the age of abalones based on their physical characteristics. We will use the most appropriate models for this analysis, as we learn more about the dataset and the techniques that are available for classification problems. As an example we can use, Linear Discriminant Analysis (LDA), K Nearest Neighbor (KNN), and Classification and Regression Trees (CART). Additionally, since this is a supervised model, we can break up our measurements into two sets. We use the first portion of the dataset for trainig and developing the models, and use the second portion to validate our models. Although we have to be careful on how we can break up the data so that the distribution of the classes are proportional. Ultimately we can see which model produces the most accurate results.
+We will create three classification models, that would predict the age of abalones based on their physical characteristics. We will use the most appropriate models for this analysis, as we learn more about the dataset and the techniques that are available for classification problems. As an example we can use, Linear Discriminant Analysis (LDA), K Nearest Neighbor (KNN), and Classification and Regression Trees (CART). Additionally, since this is a supervised model, we can break up our measurements into two sets. We use the first portion of the dataset for training and developing the models, and use the second portion to validate our models. Although we have to be careful on how we can break up the data so that the distribution of the classes are proportional. Ultimately we can see which model produces the most accurate results.
 
 ## Benchmark Model ##
 
-A good benchmark would be to predict the class (i.e. the number of rings and ultimately the age) of an abalone, given its physical characteristic features. With further analysis, we may realize that some of these features are very closely correlated, such as all the weight measurements, and we may not use all of the features in our model.
+A good benchmark would be to predict the class (i.e. the number of rings and ultimately the age) of an abalone, given its physical characteristic features. With further analysis, we may realize that some of these features are very closely correlated, such as all the weight measurements, and we may not use all of these features in our model.
 
+## Performance Metric ##
+
+We will be using the metric of 'Accuracy' to evaluate our models. This is a ratio of the number of correctly predicted instances divided by the total number of instances in the dataset multiplied by 100 to give a percentage (e.g. 98% accurate).
