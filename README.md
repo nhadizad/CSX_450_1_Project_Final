@@ -83,11 +83,11 @@ Class Distribution:
 
 ## Solution ##
 
-We will create three classification models, that would predict the age of abalones based on their physical characteristics. We will use the most appropriate models for this analysis, as we learn more about the dataset and the techniques that are available for classification problems. As an example we can use, Linear Discriminant Analysis (LDA), K Nearest Neighbor (KNN), and Classification and Regression Trees (CART). Additionally, since this is a supervised model, we can break up our measurements into two sets. We use the first portion of the dataset for training and developing the models, and use the second portion to validate our models. Although we have to be careful on how we can break up the data so that the distribution of the classes are proportional. Ultimately we can see which model produces the most accurate results.
+We will create three classification models, that would predict the age of abalones based on their physical characteristics. We will use the most appropriate models for this analysis, as we learn more about the dataset and the techniques that are available for classification problems. As an example we can use, Linear Discriminant Analysis (LDA), K Nearest Neighbor (KNN), and Classification and Regression Trees (CART). Additionally, since this is a supervised model, we can break up our measurements into two sets. We use the first portion of the dataset for training and developing the models, and use the second portion to validate our models. We have to be careful on how we can break up the data so that the distribution of the classes are proportional. Ultimately we can see which model produces the most accurate results.
 
 ## Benchmark Model ##
 
-A good benchmark would be to predict the class (i.e. the number of rings and ultimately the age) of an abalone, given its physical characteristic features. With further analysis, we may realize that some of these features are very closely correlated, such as all the weight measurements, and we may not use all of these features in our model.
+A good benchmark would be to predict the class (i.e. the number of rings and ultimately the age) of an abalone, given its physical characteristic features. With further analysis, we may realize that some of these features are very closely correlated, such as all the weight measurements, and we may not use all of these features in our model. Additionally we need to make sure that our data is clean. As an example the Min of the Height above indicates that there are zero values for this feature, and we have to take action accordingly.
 
 ## Performance Metric ##
 
