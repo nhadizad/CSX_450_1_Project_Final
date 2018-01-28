@@ -64,20 +64,20 @@ Class Distribution:
 	29	1
 
 
- Sex          Length         Diameter          Height        WholeWeigth    
- F:1307   Min.   :0.075   Min.   :0.0550   Min.   :0.0000   Min.   :0.0020  
- I:1342   1st Qu.:0.450   1st Qu.:0.3500   1st Qu.:0.1150   1st Qu.:0.4415  
- M:1528   Median :0.545   Median :0.4250   Median :0.1400   Median :0.7995  
+    Sex          Length         Diameter          Height        WholeWeigth    
+    F:1307   Min.   :0.075   Min.   :0.0550   Min.   :0.0000   Min.   :0.0020  
+    I:1342   1st Qu.:0.450   1st Qu.:0.3500   1st Qu.:0.1150   1st Qu.:0.4415  
+    M:1528   Median :0.545   Median :0.4250   Median :0.1400   Median :0.7995  
           Mean   :0.524   Mean   :0.4079   Mean   :0.1395   Mean   :0.8287  
           3rd Qu.:0.615   3rd Qu.:0.4800   3rd Qu.:0.1650   3rd Qu.:1.1530  
           Max.   :0.815   Max.   :0.6500   Max.   :1.1300   Max.   :2.8255  
- ShuckedWeigth    VisceraWeight     ShellWeight         Rings       
- Min.   :0.0010   Min.   :0.0005   Min.   :0.0015   Min.   : 1.000  
- 1st Qu.:0.1860   1st Qu.:0.0935   1st Qu.:0.1300   1st Qu.: 8.000  
- Median :0.3360   Median :0.1710   Median :0.2340   Median : 9.000  
- Mean   :0.3594   Mean   :0.1806   Mean   :0.2388   Mean   : 9.934  
- 3rd Qu.:0.5020   3rd Qu.:0.2530   3rd Qu.:0.3290   3rd Qu.:11.000  
- Max.   :1.4880   Max.   :0.7600   Max.   :1.0050   Max.   :29.000
+    ShuckedWeigth    VisceraWeight     ShellWeight         Rings       
+    Min.   :0.0010   Min.   :0.0005   Min.   :0.0015   Min.   : 1.000  
+    1st Qu.:0.1860   1st Qu.:0.0935   1st Qu.:0.1300   1st Qu.: 8.000  
+    Median :0.3360   Median :0.1710   Median :0.2340   Median : 9.000  
+    Mean   :0.3594   Mean   :0.1806   Mean   :0.2388   Mean   : 9.934  
+    3rd Qu.:0.5020   3rd Qu.:0.2530   3rd Qu.:0.3290   3rd Qu.:11.000  
+    Max.   :1.4880   Max.   :0.7600   Max.   :1.0050   Max.   :29.000
 
 
 
