@@ -87,7 +87,7 @@ We will create three classification models, that would predict the age of abalon
 
 ## Benchmark Model ##
 
-A good benchmark would be to predict the class (i.e. the number of rings and ultimately the age) of an abalone, given its physical characteristic features. With further analysis, we may realize that some of these features are very closely correlated, such as all the weight measurements, and we may not use all of these features in our model. One such example would be the Length and the Diameter. Additionally we need to make sure that our data is clean. As an example the Min of the Height above indicates that there are zero values for this feature, and we have to take action accordingly. One option would be dropping these measurements if model is heavily correlated to Height.
+A good benchmark would be to predict the class (i.e. the number of rings and ultimately the age) of an abalone, given its physical characteristic features. With further analysis, we may realize that some of these features are very closely correlated, such as lehgth and diameter, and we don't need all of these features in our models. Additionally we need to make sure that our data is clean. As an example the Min of the Height indicates that there are zero values for this feature, and we have to take the apporpriate action accordingly. One option would be to drop these zero valued measurements if the model is heavily correlated to Height.
 
 ## Performance Metric ##
 
