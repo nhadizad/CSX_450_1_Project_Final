@@ -10,7 +10,7 @@ The age of abalone is determined by cutting the shell through the cone, staining
 The abalone dataset contains measurements for 4177 instances, with 8 features as well as the number of rings.
 
 
-As each element will be stored in an R, the size of the dataframe will be approximately 284036 bytes (4177 rows * 4 columns * 8 bytes + 4177 rows * 1 column * 4 bytes) plus any overhead associated with the dataframe. With an overhead of 5% for this relatively large dataset, the total in-memory size of this dataframe is approximately 290000 bytes.
+As each element will be stored in an R, the size of the dataframe will be approximately 284036 bytes (4177 rows * 4 columns * 8 bytes + 4177 rows * 1 column * 4 bytes) plus any overhead associated with the dataframe. With an overhead of 5% for this relatively larger dataset, the total in-memory size of this dataframe is approximately 290000 bytes.
 
 Number of Attributes: 8 predictive attributes and the number of rings (directly related to age).
 
@@ -87,7 +87,7 @@ We will create three classification models, that would predict the age of abalon
 
 ## Benchmark Model ##
 
-A good benchmark would be to predict the class (i.e. the number of rings and ultimately the age) of an abalone, given its physical characteristic features. With further analysis, we may realize that some of these features are very closely correlated, such as all the weight measurements, and we may not use all of these features in our model. Additionally we need to make sure that our data is clean. As an example the Min of the Height above indicates that there are zero values for this feature, and we have to take action accordingly. One option would be dropping these measurements if model is heavily correlated to Height.
+A good benchmark would be to predict the class (i.e. the number of rings and ultimately the age) of an abalone, given its physical characteristic features. With further analysis, we may realize that some of these features are very closely correlated, such as all the weight measurements, and we may not use all of these features in our model. One such example would be the Length and the Diameter. Additionally we need to make sure that our data is clean. As an example the Min of the Height above indicates that there are zero values for this feature, and we have to take action accordingly. One option would be dropping these measurements if model is heavily correlated to Height.
 
 ## Performance Metric ##
 
