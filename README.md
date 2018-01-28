@@ -4,13 +4,13 @@
 The problem is drawn from the analysis of data when studying the physical characteristic of abalones as it relates to their age.
 
 ## Problem Statement ##
-The age of abalone is determined by cutting the shell through the cone, staining it, and counting the number of rings through a microscope, a time consuming process. In order to simplify the process, we will create a supervised classification model to predict the age range of abalones, using their physical characteristics.
+The age of abalone is determined by cutting the shell through the cone, staining it, and counting the number of rings through a microscope; a time consuming process. In order to simplify the process, we will create a supervised classification model to predict the age of abalones, using their physical characteristics.
 
 ## Dataset ##
-The abalone dataset contains measurements for 4177 instances, with 8 features as well as the number of rings.
+The abalone dataset contains measurements for 4177 instances, with 8 features as well as the target, the number of rings.
 
 
-As each element will be stored in an R, the size of the dataframe will be approximately 284036 bytes (4177 rows * 4 columns * 8 bytes + 4177 rows * 1 column * 4 bytes) plus any overhead associated with the dataframe. With an overhead of 5% for this relatively larger dataset, the total in-memory size of this dataframe is approximately 290000 bytes.
+As data elements will be stored in R, the size of the dataframe will be approximately 284036 bytes (4177 rows * 4 columns * 8 bytes + 4177 rows * 1 column * 4 bytes) plus any overhead associated with the dataframe. With an overhead of 5% for this relatively larger dataset, the total in-memory size of this dataframe is approximately 290000 bytes.
 
 Number of Attributes: 8 predictive attributes and the number of rings (directly related to age).
 
@@ -63,6 +63,7 @@ Class Distribution:
 	27	2
 	29	1
 
+Summary Statistics:
 
     Sex          Length         Diameter          Height        WholeWeigth    
     F:1307  Min.   :0.075   Min.   :0.0550   Min.   :0.0000   Min.   :0.0020  
